@@ -4,28 +4,59 @@
 
 body {
 	font-family: "Courier New", Courier, monospace;
-}
-
-.container {
-	position: relative;
+	font-size: 16px;
+	color: #fff;
 }
 
 h1 {
 	text-align: center;
-	background-color: beige;
+	font-size: 175%;
+	color: #536d7c;
+	padding-bottom: 30px;
 }
 
 section {
-	border: 1px solid red;
-	/* padding: 0 20px 20px 20px; */
+	border: 1px solid #000;
 	margin: 0 20px 20px 20px;
+}
+
+.container {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+	/* margin: auto; */
+}
+
+#sect1,
+#sect2,
+#sect3 {
+	background-color: #FEFBE7;
+	color: #000;
+}
+
+#s1 {
+	background-color: #E04D01;
+	color: #fff;
+
+}
+
+#s2 {
+	background-color: #F8B400;
+	color: #fff;
+
+}
+
+#s3 {
+	background-color: #9FC088;
+	color: white;
 }
 
 span {
 	float: right;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
 	padding: 10px;
-	background-color: blue;
-	color: white;
+	font-size: 125%;
 }
 
 p {
